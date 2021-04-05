@@ -1,0 +1,88 @@
+.main-con-7 {
+    background: url("../img/tweerqwq.jpg") no-repeat fixed center;
+    background-size: cover;
+    height: max-content;
+    font-family: Lato, sans-serif;
+}
+
+.main-con-7 address {
+    padding-top: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Lato, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.main-con-7 address a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-con-7 .div {
+    position: relative;
+    backdrop-filter: blur(24px);
+    padding: 2em;
+    color: #ffffff;
+}
+
+.cent-7 {
+    width: 50%;
+    padding: 14em 0;
+}
+
+
+.main-con-7 .div h2 {
+    font-size: 28px;
+    width: 26em;
+    margin: 0 auto;
+}
+
+.main-con-7 .text-sub-con {
+    border-bottom: 3px solid white;
+    border-right: 3px solid #ffffff;
+    border-left: 3px solid #ffffff;
+    padding: 3em 6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+    word-break: break-word;
+    position: relative;
+}
+
+.main-con-7 .div .text-sub-con:after, .main-con-7 .div .text-sub-con:before {
+    content: " ";
+    position: absolute;
+    background: transparent;
+    height: 10em !important;
+}
+
+.main-con-7 .text-sub-con:after {
+    border-left: 3px solid #ffffff;
+    border-top: 3px solid #ffffff;
+    top: -24px;
+    left: -3px;
+}
+
+.main-con-7 .text-sub-con:before {
+    border-right: 3px solid #ffffff;
+    border-top: 3px solid #ffffff;
+    top: -24px;
+    right: -3px;
+}
+
+.sub-p {
+    margin-bottom: 1em;
+}
+
+
+.main-con-7 .div > .text-sub-con {
+    border-color: aliceblue;
+}
+
+.main-con-7 .div .text-sub-con:after, .main-con-7 .div .text-sub-con:before {
+    border-color: #ffffff;
+    width: 12em;
+}

@@ -1,0 +1,68 @@
+.main-con-4 {
+    font-family: Lato, sans-serif;
+    height: max-content;
+}
+
+.cent-4 {
+    width: 50%;
+    padding: 6em 0;
+}
+
+.cent-4 h2 {
+    font-size: 34px;
+}
+
+.cent-4-sub-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5em 2em 1em;
+    border-left: 3px solid #000000;
+    border-right: 3px solid #000000;
+    border-bottom: 3px solid #000000;
+    position: relative;
+}
+
+.cent-4-sub-con:before, .cent-4-sub-con:after {
+    content: " ";
+    position: absolute;
+    background: transparent;
+    width: 18em;
+    height: 6em;
+    max-width: 18em;
+    max-height: 6em;
+}
+
+.cent-4-sub-con:after {
+    border-left: 3px solid #000000;
+    border-top: 3px solid #000000;
+    top: -24px;
+    left: -3px;
+}
+
+.cent-4-sub-con:before {
+    border-right: 3px solid #000000;
+    border-top: 3px solid #000000;
+    top: -24px;
+    right: -3px;
+}
+
+.cent-4-sub-con div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 17em;
+    width: 33em;
+    word-break: break-word;
+    margin: 0 auto 6em;
+}
+
+.cent-4-sub-con img {
+    width: max-content;
+    margin: 0 auto;
+}
+
+.cent-4-sub-con h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+}

@@ -1,0 +1,67 @@
+.main-con-1 {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    font-family: Lato, sans-serif;
+    color: aliceblue;
+    background: url("../img/Layer 8.png") no-repeat fixed center;
+    background-size: cover;
+}
+
+.cent-con {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.cent-1 {
+    height: 100%;
+    width: 50%;
+    padding-top: 12em;
+    padding-bottom: 7em;
+}
+
+.cent-con h1 {
+    word-break: break-word;
+}
+
+.cent-1 h1 {
+    width: 14em;
+    font-size: 50px;
+    margin: 0 auto 1em;
+}
+
+.cent-1 p {
+    font-size: 25px;
+    margin-bottom: 1em;
+}
+
+.cent-1 > img {
+    width: max-content;
+    margin: 0 auto 4em;
+}
+
+.text-con, .cent-con h2 {
+    text-transform:  uppercase;
+}
+
+.text-con {
+    margin-bottom: 16em;
+}
+
+.shape-anim {
+    -webkit-animation: mover .5s infinite  alternate;
+    animation: mover .5s infinite  alternate;
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}

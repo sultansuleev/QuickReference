@@ -1,0 +1,45 @@
+.main-con-5 {
+    background: url("../img/weweewe.jpg") no-repeat fixed center;
+    background-size: cover;
+    height: max-content;
+    font-family: Lato, sans-serif;
+    color: aliceblue;
+}
+
+.main-con-5 ol {
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 1em;
+}
+
+.main-con-5 .div {
+    position: relative;
+    backdrop-filter: blur(24px);
+    padding: 2em;
+}
+
+.main-con-5 address a {
+    color: white;
+    text-decoration: none;
+}
+
+.cent-5 {
+    width: 50%;
+    padding: 14em 0;
+    position: relative;
+}
+
+.cent-5 h2 {
+    font-size: 34px;
+}
+
+.div > .text-sub-con {
+    border-color: aliceblue;
+}
+
+.main-con-5 .div .text-sub-con:after, .main-con-5 .div .text-sub-con:before {
+    border-color: #ffffff;
+    width: 12em;
+}

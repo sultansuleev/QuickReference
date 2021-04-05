@@ -1,0 +1,68 @@
+@import "main-set.css";
+@import "content-1.css";
+@import "content-2.css";
+@import "content-3.css";
+@import "content-4.css";
+@import "content-5.css";
+@import "content-6.css";
+@import "content-7.css";
+@import "content-8.css";
+@import "content-9.css";
+@import "content-10.css";
+@import "footer_and_nav.css";
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1800px){
+    .text-con {
+        margin-bottom: 7em;
+    }
+
+    .cent-1 {
+        width: 44%;
+    }
+
+    .cent-1 h1 {
+        font-size: 30px;
+        margin: 0 auto 1em;
+    }
+
+    .text-sub-con:after, .text-sub-con:before {
+        width: 5em;
+    }
+
+    .cent-4-sub-con:after, .cent-4-sub-con:before {
+        width: 5em;
+    }
+
+    .cent-4-sub-con div {
+        width: 20em;
+    }
+
+    .cent-6 > .text-sub-con:after, .cent-6 > .text-sub-con:before {
+        width: 5em;
+    }
+
+    .txt-s-con6 > div {
+        padding: 1em 3em;
+    }
+
+    .g-con:hover > img {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+
+    .g-con:hover > a {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+
+    .f-con {
+        width: 39%;
+    }
+}
