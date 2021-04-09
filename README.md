@@ -4,7 +4,7 @@ My simple template that was created to course "Web-technologIes"
 
 ## Languages
 
-- Html, CSS and JS
+- HTML, CSS and JS
 
 
 ## Installation
