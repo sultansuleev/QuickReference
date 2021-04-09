@@ -2,7 +2,7 @@
 # QuickReference
 My simple template that was created to course "Web-technologIes"
 
-## Programming Languages
+## Languages
 
 - Html, CSS and JS
 
